@@ -26,3 +26,6 @@ variable "security_group_ids" {
   description = "Security group ids to allow access"
 }
 
+variable "mount_points_qty" {
+  default = 0
+}
